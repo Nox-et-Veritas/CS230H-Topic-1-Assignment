@@ -5,7 +5,7 @@
 
 Attempting to use the variable that I passed ownership of to another function returned an error when trying to compile for a non-Copy type variable (String).
 
-![[Pasted image 20260923185252.png]]
+![Pasted image 20260923185252.png](Pasted image 20260923185252.png)
 
 Meanwhile, doing the same for an i32 which has the Copy attribute did not cause any errors upon compilation.
-![[Pasted image 20260923184938.png]]
+![Pasted image 20260923184938.png](Pasted image 20260923184938.png)
